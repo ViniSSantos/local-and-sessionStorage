@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>localStorage&sessionStorage</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1>localStorage&sessionStorage!</h1>
+    <form id="name-form">
+        <h2>Preencha para acessar</h2>
+        <label>Nome:</label>
+        <input 
+            type="text"
+            id="name"
+            placeholder="Digite seu nome"
+            required 
+        />
+
+        <input type="submit" value="Enviar"/>
+    </form>
+    
+    <div id="welcome" style="display: none;">
+        <h2>Seja Bem-Vindo <span id="userName"></span></h2>
+        <button id="logout">Sair</button>
+    </div>
+
+    <script src="/project.js"></script>
+</body>
+</html>
